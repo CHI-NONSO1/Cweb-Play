@@ -1,0 +1,110 @@
+.form__group--parent{
+  width: 90%;
+  height: .3%;
+  margin-bottom: 4%;
+  
+}
+
+@media screen and (max-width:820px){
+  .form__group--parent{
+    height: .65%;
+  }
+}
+.form-control {
+  width: 97%;
+  height: 6%;
+  padding: 1.5%;
+  border: none;
+  outline: none;
+  border-radius: 1%;
+  
+}
+
+@media screen and (max-width:820px) {
+  .form-control {
+    width: 99%;
+    
+  }
+}
+.input_parent {
+  width: 95%;
+  height: 5%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width:820px) {
+  .input_parent {
+    width: 99%;
+    
+  }
+}
+
+
+
+.help_parent {
+  width: 95%;
+  height: 5%;
+  margin: 5%;
+}
+
+.help-block {
+  width: 100%;
+  height: 5%;
+  color: red;
+  font-size: 120%;
+}
+
+
+.lyrics__header-wrap {
+  margin: 5%;
+  text-align: center;
+  background-color: sandybrown;
+}
+.lyrics_header {
+  color: #fff;
+  font-size: 200%;
+}
+
+
+
+
+.form-group__submit--addlyrics {
+  position: absolute;
+  bottom: -.18%;
+  margin-left: 5%;
+  width: 75%;
+  height: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen  and (max-width:820px){
+  .form-group__submit--addlyrics {
+   
+    width: 75%;
+    height: 2%;
+    position: absolute;
+    bottom: -.3%;
+  }
+}
+
+.lyrics__btn_submit {
+  width: 25%;
+  height: 35%;
+  padding: 4%;
+  margin-top: 8%;
+  border-radius: 5%;
+  color: #fff;
+  background-color:indigo;
+  box-shadow: 0 10px 50px #000;
+}
+.lyrics__btn_submit:hover{
+ transform: scale(1.05);
+}
+@media screen  and (max-width:820px){
+  .lyrics__btn_submit {
+    width: 50%;
+   
+  }
+}

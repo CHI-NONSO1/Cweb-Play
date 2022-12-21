@@ -1,0 +1,204 @@
+.song__container--main-flex{
+  
+  width: 95%;
+  height: 800px;
+  margin: 2% auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  z-index: 2;
+  
+}
+@media screen and (max-width:820px){
+  .song__container--main-flex{
+    width: 90%;
+    height: 1300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  margin-bottom: 5%;
+    
+  }
+}
+.song__main--box{
+  width: 99%;
+    height: 75%;
+  background: navy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 50px 50px #000;
+  border-radius: 15px;
+  position: relative;
+  border: 2px solid goldenrod;
+}
+
+.song__main--box:hover{
+  transform: scale(1.05);
+}
+
+
+.song_prev_song_buy-main{
+  width: 98%; 
+  height: 20%;
+  position: absolute;
+bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 7%;
+
+  
+}
+
+#song__cover-main{
+	position: absolute;
+	top: 0%;
+	left: 1%;
+	width: 30%;
+	height: 30%;
+	border-radius: 15px;
+}
+.song__image-cover-main{
+	width: 100%;
+	height: 100%;	
+	border-radius: 15px;
+} 
+
+.song__title-main{
+	position: absolute;
+	top: 18%;
+	left: 35%;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen  and (max-width:820px){
+  .song__title-main{
+    position: absolute;
+    top: 15%;
+    
+    
+  }
+}
+.title{
+	width: 90%;
+	margin-left: 17%;
+}
+
+.song__artist-main{
+	position: absolute;
+	top: 26%;
+	left: 35%;
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#lyrics-main-dis{
+	position: absolute;
+	top: 37%;
+	left: 3%;
+	width: 95%;	
+  height: 20%;
+	padding: 1%;
+	border-radius: 15px;
+	color: #fff;
+
+}
+@media screen  and (max-width:820px){
+  #lyrics-main-dis{
+ 	
+    height: 28%;
+   
+  }
+}
+
+@media screen  and (max-width:820px){
+  .show__lyrics{
+    font-size: 1rem;
+  }
+}
+
+.song_item-main{
+	position: absolute;
+	top: 55%;
+	left: 5%;
+	width: 88%;	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  margin-bottom: 5%;
+	
+}
+
+.price{
+  text-decoration: line-through double;
+}
+.action__btn--prev,
+.action__btn--buy{
+outline: none;
+width: 30%;
+height: 100%;
+background:  rgba(224, 162, 140,.5);
+color: beige;
+border-radius: 15px;
+box-shadow: 0 50px 50px #000;
+cursor: pointer;
+}
+.add_to-playlist{
+  width: 45%;
+  height: 13%;
+  text-decoration: none;
+  color: aliceblue;
+  position: absolute;
+	top: 2%;
+	right: 2%;
+  border-radius: 4px;
+  background: rgba(20, 128, 20, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase; 
+}
+
+
+.progress{
+  position: absolute;
+	bottom: 24%;
+	
+}
+
+#volume__control{
+  height: 2px;
+  position: absolute;
+	bottom: 34%;
+  
+}
+
+.vol_timer{
+  position: absolute;
+	bottom: 34%;
+  width: 95%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+@media screen  and (max-width:820px){
+  .vol_timer{
+    position: absolute;
+    bottom: 25%;
+  }
+}

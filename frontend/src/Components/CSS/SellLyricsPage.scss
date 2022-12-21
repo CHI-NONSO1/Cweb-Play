@@ -1,0 +1,81 @@
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.sell__lyrics{
+  width: 90%;
+  height: 90%;
+  position: relative;
+  margin: 8% auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  z-index: 2;
+ 
+}
+
+
+@media screen and (max-width:820px){
+  .sell__lyrics{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  
+    
+  }
+}
+.lyrics__main--box{
+  width: 99%;
+  height: 200px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 50px 50px #000;
+  border-radius: 15px;
+  position: relative;
+  border: 2px solid goldenrod;
+  margin-bottom: 5%;
+}
+
+
+
+.lyrics__main--box:hover{
+  transform: scale(1.05);
+}
+
+.lyrics__wrap{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+  height: 28%;
+
+}
+.actnow{
+  width: 99%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.pric{
+  text-decoration: line-through double;
+}
+
+.buybtn{
+  width: 20%;
+  height: 40%;
+  background: navy;
+  color: #fff;
+  box-shadow: 0 50px 50px #000;
+  cursor: pointer;
+}
